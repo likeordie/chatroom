@@ -1,6 +1,7 @@
 body {
     font:12px arial;
     color: #222;
+    background-color: #F0F2F5;
     text-align:center;
     padding:35px; }
   
@@ -10,46 +11,130 @@ form, p, span {
   
 input { font:12px arial; }
   
-a {
+a{
     color:#0000FF;
-    text-decoration:none; }
+    text-decoration:none; 
+}
   
-    a:hover { text-decoration:underline; }
+a:hover {
+ text-decoration:underline;
+}
   
-#wrapper, #loginform {
+
+#loginform{ 
+
+    margin:200px 0 0 500px;
+    border-radius: 200px;
+    width: 400px;
+    height: 100px;
+    background-color:#2EA0C8;
+    position: relative;
+   
+
+}
+
+#loginform label{
+    margin-right: 1px;
+    font-size: 17px;
+    font-family: Roboto, Arial, sans-serif;
+    position: absolute;
+    left: 15px;
+    top: 34px;
+}
+
+#name{
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#enter{
+    left: 300px;
+    top: 28px;
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    border-radius:5px
+}
+#enter:hover{
+        background-color: red;
+}
+#wrapper{
+    float: left;
     margin:0 auto;
     padding-bottom:25px;
-    background:#EBF4FB;
-    width:504px;
-    border:1px solid #ACD8F0; }
-  
-#loginform { padding-top:18px; }
-  
-    #loginform p { margin: 5px; }
-  
+    background-color: #FFFFFF;
+    width:320px;
+    border:1px solid black; 
+    border-radius: 20px;
+
+}
 #chatbox {
     text-align:left;
-    margin:0 auto;
-    margin-bottom:25px;
+    margin-left: 10px;
+    
     padding:10px;
     background:#fff;
-    height:270px;
-    width:430px;
-    border:1px solid #ACD8F0;
-    overflow:auto; }
-  
+    height:250px;
+    width:300px;
+    border-top: solid 1px;
+    overflow:auto;
+}  
 #usermsg {
-    width:395px;
-    border:1px solid #ACD8F0; }
+    width:200px;
+    height: 32px;
+    background-color: #F0F2F5;
+    border-radius: 10px;
+}
   
-#submit { width: 60px; }
+#submitmsg { 
+    width: 60px; 
+    height: 35px;
+    border-radius: 10px;
+
+}
+#submitmsg:hover { 
+    width: 50px; 
+    height: 40px;
+    background-color: red;
+    
+}
   
 .error { color: #ff0000; }
   
 #menu { padding:12.5px 25px 12.5px 25px; }
   
-.welcome { float:left; }
-  
+.welcome { 
+    float:left; 
+}
+#exit{
+    color: red;
+}
 .logout { float:right; }
   
-.msgln { margin:0 0 2px 0; }
+.msgln  { 
+    margin:0 0 10px 0;
+    max-width: 500px;
+    font-size: 11px;
+}
+#icon{
+    margin-left: 50px;
+    width: 25px;
+    height: 25px;
+}
+#chatuser{
+    display: inline-block;
+    background-color: #2C9DCB;
+    height: 22px;
+    padding:5px 10px 0 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+#a6{
+    font-family: Brush Script MT;
+    font-size: 30px;
+}
